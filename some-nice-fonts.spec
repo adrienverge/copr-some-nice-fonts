@@ -1,13 +1,13 @@
 # Copyright 2017 Adrien Vergé
 
 Name:      some-nice-fonts
-Version:   1.0.0
+Version:   1.0.1
 Release:   1%{?dist}
 Summary:   Some nice fonts including Arial, Courier New, Helvetica, etc.
 License:   Proprietary
 URL:       https://github.com/adrienverge/copr-some-nice-fonts
 Source0:   Arial.ttf
-Source1:   ComicSansMs.ttf
+Source1:   ComicSansMS.ttf
 Source2:   CourierNew.ttf
 Source3:   Georgia.ttf
 Source4:   HelveticaNeue.ttf
@@ -15,7 +15,7 @@ Source5:   Helvetica.ttf
 Source6:   LucidaSansUnicode.ttf
 Source7:   Tahoma.ttf
 Source8:   TimesNewRoman.ttf
-Source9:   TrebuchetMs.ttf
+Source9:   TrebuchetMS.ttf
 Source10:  Verdana.ttf
 
 BuildArch: noarch
@@ -24,7 +24,7 @@ BuildRequires: fontpackages-devel
 %description
 This package provides the following fonts:
 - Arial
-- Comic Sans Ms
+- Comic Sans MS
 - Courier New
 - Georgia
 - Helvetica Neue
@@ -32,7 +32,7 @@ This package provides the following fonts:
 - Lucida Sans Unicode
 - Tahoma
 - Times New Roman
-- Trebuchet Ms
+- Trebuchet MS
 - Verdana
 
 
