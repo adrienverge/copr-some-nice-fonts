@@ -16,7 +16,13 @@ includes the following fonts:
 - Trebuchet Ms
 - Verdana
 
-Building
+Using it
 --------
+
+sudo dnf copr enable adrienverge/some-nice-fonts
+sudo dnf install some-nice-fonts
+
+Building it
+-----------
 
 cp *.ttf ~/rpmbuild/SOURCES && rpmbuild -ba some-nice-fonts.spec
