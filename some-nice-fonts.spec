@@ -43,9 +43,6 @@ This package provides the following fonts:
 %setup -q -c -T -n some-nice-fonts-%{version}
 
 
-%build
-
-
 %install
 rm -rf %{buildroot}
 install -m 0755 -d %{buildroot}%{_fontdir}
@@ -60,10 +57,6 @@ install -m 0644 -p %{SOURCE7} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE8} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE9} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE10} %{buildroot}%{_fontdir}
-
-
-%files
-%{_fontdir}/*.ttf
 
 
 %changelog
