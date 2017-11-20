@@ -1,22 +1,41 @@
 # Copyright 2017 Adrien Vergé
 
 Name:      some-nice-fonts
-Version:   1.0.1
+Version:   2.0.0
 Release:   1%{?dist}
 Summary:   Some nice fonts including Arial, Courier New, Helvetica, etc.
 License:   Proprietary
 URL:       https://github.com/adrienverge/copr-some-nice-fonts
 Source0:   Arial.ttf
-Source1:   ComicSansMS.ttf
-Source2:   CourierNew.ttf
-Source3:   Georgia.ttf
-Source4:   HelveticaNeue.ttf
-Source5:   Helvetica.ttf
-Source6:   LucidaSansUnicode.ttf
-Source7:   Tahoma.ttf
-Source8:   TimesNewRoman.ttf
-Source9:   TrebuchetMS.ttf
-Source10:  Verdana.ttf
+Source1:   ArialBd.ttf
+Source2:   ArialIt.ttf
+Source3:   ArialBdIt.ttf
+Source4:   ComicSansMS.ttf
+Source5:   ComicSansMSBd.ttf
+Source6:   CourierNew.ttf
+Source7:   Georgia.ttf
+Source8:   GeorgiaBd.ttf
+Source9:   GeorgiaIt.ttf
+Source10:  GeorgiaBdIt.ttf
+Source11:  Helvetica.ttf
+Source12:  HelveticaBd.ttf
+Source13:  HelveticaNeue.ttf
+Source14:  HelveticaNeueBd.ttf
+Source15:  LucidaSansUnicode.ttf
+Source16:  Tahoma.ttf
+Source17:  TahomaBd.ttf
+Source18:  TimesNewRoman.ttf
+Source19:  TimesNewRomanBd.ttf
+Source20:  TimesNewRomanIt.ttf
+Source21:  TimesNewRomanBdIt.ttf
+Source22:  TrebuchetMS.ttf
+Source23:  TrebuchetMSBd.ttf
+Source24:  TrebuchetMSIt.ttf
+Source25:  TrebuchetMSBdIt.ttf
+Source26:  Verdana.ttf
+Source27:  VerdanaBd.ttf
+Source28:  VerdanaIt.ttf
+Source29:  VerdanaBdIt.ttf
 
 BuildArch: noarch
 BuildRequires: fontpackages-devel
@@ -57,8 +76,30 @@ install -m 0644 -p %{SOURCE7} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE8} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE9} %{buildroot}%{_fontdir}
 install -m 0644 -p %{SOURCE10} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE11} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE12} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE13} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE14} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE15} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE16} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE17} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE18} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE19} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE20} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE21} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE22} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE23} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE24} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE25} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE26} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE27} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE28} %{buildroot}%{_fontdir}
+install -m 0644 -p %{SOURCE29} %{buildroot}%{_fontdir}
 
 
 %changelog
+* Mon Nov 20 2017 Adrien Vergé <adrienverge@gmail.com>
+- Add bold and italic versions when available
+
 * Fri Jun 23 2017 Adrien Vergé <adrienverge@gmail.com>
 - Initial package spec
